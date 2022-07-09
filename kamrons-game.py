@@ -26,14 +26,14 @@ while (cont):
         
                 elif answer == "left":
                
-                    answer = input("You safely make it to the car park place and seem to lose the FBI, when you spot an FBI car unit rushing towards you. You can either try and break into another CAR, or you can get down and HIDE for your dear life.")
+                    answer = get_answer("You safely make it to the car park place and seem to lose the FBI, when you spot an FBI car unit rushing towards you. You can either try and break into another CAR, or you can get down and HIDE for your dear life.")
         
                     if answer == "car":
                         print("You try to break into a car and... fail. The FBI sniper shoots you from their car and then flexes on his fellow FBI agents that he could shoot a moving target from a moving standpoint. In other words, you died.")
             
                     elif answer == "hide":
                 
-                        answer = input("You hide and the FBI passes you... but once you get out of hiding immediately someone spots you and yells to the FBI to come and take you. Now you can either try and STOP the person yelling or just RUN.")
+                        answer = get_answer("You hide and the FBI passes you... but once you get out of hiding immediately someone spots you and yells to the FBI to come and take you. Now you can either try and STOP the person yelling or just RUN.")
             
                         if answer == "stop":
                             print("i guess you can say you were too late to stop him... so yeah. game over.")
@@ -41,7 +41,7 @@ while (cont):
                         elif answer == "run":
                             print("you successfully run away from the FBI. Now your options to get home present themselves.")
                         
-                            answer = input("You can try and RENT a car at the local center a few minutes way, or you can just WALK home.")
+                            answer = get_answer("You can try and RENT a car at the local center a few minutes way, or you can just WALK home.")
                         
                                    
                         else:
