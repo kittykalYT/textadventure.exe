@@ -69,3 +69,4 @@ while (cont):
             print("Invalid choice, you ran straight into a wall in front of you, the FBI caught up to you, and you were never seen again.")
     else:
         print("That's too bad!")
+        cont = 0
