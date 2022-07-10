@@ -51,7 +51,7 @@ while (cont):
                                 answer = get_answer("You get stopped by the FBI on the way there and threaten to kill you. You can now either make a RUN for it, or try to TALK with them.")
                                 
                                 if answer == "run":
-                                    print("you weren't fast enough.")
+                                    print("You weren't fast enough.")
                                 
                                 if answer == "talk":
                                     print("You manage to get some information out of them.")
@@ -59,7 +59,7 @@ while (cont):
                                     answer = get_answer("You say that it's not true, but when you say that, the FBI automatically assume that you are lying and threaten to kill you, again. Now your options are to try and RUN, beg for MERCY, or try to convince them with PROOF.")
                                     
                                     if answer == "run":
-                                        print("you weren't fast enough.")
+                                        print("You weren't fast enough.")
                                         
                                     if answer == "mercy":
                                         print("You beg for mercy a lot. And when I mean a lot, I mean A LOT. The FBI finally accepts, but when they ask you a question, you fall down in exhaustion. Now the FBI thinks you are faking and threatens to kill you. Your choices now are to offer them PROOF, or to RUN.")
@@ -68,7 +68,7 @@ while (cont):
                                             print("You offer them your address to investigate for the stolen money. They let you into their vehicle when you realize that... they aren't going to the right place! You tell them the address again, the driver nods, but doesn't change directions. Then it hits you: These people aren't the real FBI! You panic in your brain but stay completely still. At any moment they could kill you and no one would ever know! You manage to calm yourself and figure out two options: try and ESCAPE or PLAY along.")
                                             
                                             if answer == "escape":
-                                                print("you weren't fast enough.")
+                                                print("You weren't fast enough.")
                                                 
                                             if answer == "play":
                                                 answer = get_answer("You play along for a little while until the so called 'FBI' stopped at an abandoned warehouse and said 'wait here'. Now you have another choice: to try and make a RUN for it here or to FIND out exactly what is up here.")
@@ -122,11 +122,11 @@ while (cont):
                 
                 
             elif answer == "fight":
-                print("that was probably not a good idea, because the FBI just easily tased you as you ran towards them and took you to your stay at jail that was for at least a couple hundred years.")
+                print("That was probably not a good idea, because the FBI just easily tased you as you ran towards them and took you to your stay at jail that was for at least a couple hundred years.")
         
         
             else:
-                print("Looks like you were confused. you just stood there like an idiot as the FBI punched you to death.")
+                print("Looks like you were confused. You just stood there like an idiot as the FBI punched you to death.")
         
         
         
