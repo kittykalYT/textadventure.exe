@@ -39,7 +39,7 @@ while (cont):
                             print("i guess you can say you were too late to stop him... so yeah. game over.")
                                    
                         elif answer == "run":
-                            print("you successfully run away from the FBI. Now your options to get home present themselves.")
+                            print("You successfully run away from the FBI. Now your options to get home present themselves.")
                         
                             answer = get_answer("You can try and RENT a car at the local center a few minutes way, or you can just WALK home.")
                             
