@@ -1,6 +1,22 @@
 #!/usr/bin/python3
-def get_answer(prompt):
-    return input(prompt + " ").strip().lower()
+from time import sleep
+import sys
+
+def typewriter(str):
+    for letter in str:
+        sys.stdout.write(letter)
+        sys.stdout.flush()
+        sleep(0.07)
+    print("")
+
+def get_answer(str):
+
+    for letter in str:
+        sys.stdout.write(letter)
+        sys.stdout.flush()
+        sleep(0.07)
+    print(" ")
+    return input(">").strip().lower()
 
 cont = 1
 loop = 0
