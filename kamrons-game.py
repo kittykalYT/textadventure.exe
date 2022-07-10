@@ -83,7 +83,7 @@ while (cont):
                                                         print("You manage to excuse yourself to a port-o-potty and call the cops. Then you realize the flaw in your plan - the signal. Apparently the fake FBI drove so far that even the cellular signal couldn't reach. Now you were left with no hopes. You searched and searched for a way, but without internet, it was useless. You thought that you should probably get out now, but after one last search, a second too much was wasted, and the fake FBI began to speculate that maybe you weren't actually going to the bathroom, because normally even a number-two doesn't take 20 minutes. The FBI banged on the door and took the door down, faster than you could put your phone away and act like you were going to the bathroom. The FBI had found out what you were doing, and shot you on the spot. At least they have to clean up another port-o-potty with a corpse in it, I guess.")
                                                         
                                                     else:
-                                                        ("Invalid command. You just sat there in the truck for the rest of eternity, until the fake FBI just got tired of you and used you as fire fuel.")
+                                                        ("Looks like you were confused. You just sat there in the truck for the rest of eternity, until the fake FBI just got tired of you and used you as fire fuel.")
                                                         
                                             
                                         if answer == "run":
@@ -102,23 +102,23 @@ while (cont):
                                             print("We regret to inform you that this story has come to a close, but if you would like to play again and discover all the endings and funny passages, go ahead and type 'yes' down below. Now without further ado, I'm just going to say, THE END, and thank you for playing.")
                                         
                                     else:
-                                        print("Invalid command. You stood there like a dummy until nightfall when the FBI left, and then you just stood there for the rest of your life, slowly rotting to a crisp of ash.") 
+                                        print("Looks like you were confused. You stood there like a dummy until nightfall when the FBI left, and then you just stood there for the rest of your life, slowly rotting to a crisp of ash.") 
                                         
                                 else:
-                                     print("Invalid command. You spoke nothing or did nothing and the FBI just assumed you guilty and killed you, case closed.")
+                                     print("Looks like you were confused. You spoke nothing or did nothing and the FBI just assumed you guilty and killed you, case closed.")
                                         
                             else:
-                                print("Invalid command. You did nothing for the rest of your life and died of either starvation of old age. I wouldn't know.")
+                                print("Looks like you were confused. You did nothing for the rest of your life and died of either starvation of old age. I wouldn't know.")
                                         
                         else:
-                            print("Invalid command. You did nothing and the FBI ran over you. Game over.")
+                            print("Looks like you were confused. You did nothing and the FBI ran over you. Game over.")
                                    
                     else:
-                        print("Invalid command. The FBI calmly ran over you.")
+                        print("Looks like you were confused. The FBI calmly ran over you.")
                                    
                                    
                 else:
-                    print("Invlaid command, The FBI calmly pushed you off the building as you just stood there.")
+                    print("Looks like you were confused. The FBI calmly pushed you off the building as you just stood there.")
                 
                 
             elif answer == "fight":
@@ -126,7 +126,7 @@ while (cont):
         
         
             else:
-                print("Invalid command, you just stood there like an idiot as the FBI punched you to death.")
+                print("Looks like you were confused. you just stood there like an idiot as the FBI punched you to death.")
         
         
         
@@ -134,7 +134,7 @@ while (cont):
             print("Great choice! Except... not a great choice. It turns out it was a dead end and the FBI caught up to you and killed you on the spot.")
     
         else:
-            print("Invalid command, you ran straight into a wall in front of you, the FBI caught up to you, and you were never seen again.")
+            print("Looks like you were confused. you ran straight into a wall in front of you, the FBI caught up to you, and you were never seen again.")
     else:
         if loop == 0:
             print("Okay, maybe next time!")
