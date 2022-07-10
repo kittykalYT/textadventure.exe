@@ -134,7 +134,7 @@ while (cont):
             print("Great choice! Except... not a great choice. It turns out it was a dead end and the FBI caught up to you and killed you on the spot.")
     
         else:
-            print("Looks like you were confused. you ran straight into a wall in front of you, the FBI caught up to you, and you were never seen again.")
+            print("Looks like you were confused. You ran straight into a wall in front of you, the FBI caught up to you, and you were never seen again.")
     else:
         if loop == 0:
             print("Okay, maybe next time!")
