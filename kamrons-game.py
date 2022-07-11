@@ -10,12 +10,8 @@ def typewriter(str):
     print("")
 
 def get_answer(str):
-
-    for letter in str:
-        sys.stdout.write(letter)
-        sys.stdout.flush()
-        sleep(0.07)
-    print(" ")
+    
+    typewriter(str)
     return input(">").strip().lower()
 
 cont = 1
