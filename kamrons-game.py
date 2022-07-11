@@ -95,7 +95,7 @@ while (cont):
                                                         typewriter("You manage to excuse yourself to a port-o-potty and call the cops. Then you realize the flaw in your plan - the signal. Apparently the fake FBI drove so far that even the cellular signal couldn't reach. Now you were left with no hopes. You searched and searched for a way, but without internet, it was useless. You thought that you should probably get out now, but after one last search, a second too much was wasted, and the fake FBI began to speculate that maybe you weren't actually going to the bathroom, because normally even a number-two doesn't take 20 minutes. The FBI banged on the door and took the door down, faster than you could put your phone away and act like you were going to the bathroom. The FBI had found out what you were doing, and shot you on the spot. At least they have to clean up another port-o-potty with a corpse in it, I guess.")
                                                         
                                                     else:
-                                                        ("Looks like you were confused. You just sat there in the truck for the rest of eternity, until the fake FBI just got tired of you and used you as fire fuel.")
+                                                        typewriter("Looks like you were confused. You just sat there in the truck for the rest of eternity, until the fake FBI just got tired of you and used you as fire fuel.")
                                                         
                                             
                                         if answer == "run":
