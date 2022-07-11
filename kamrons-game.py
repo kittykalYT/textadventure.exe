@@ -59,7 +59,7 @@ while (cont):
                                 typewriter("You successfully rent a car but realize you don't know how to drive a car. You die in an epic movie-scene car crash.")
                                 
                             if answer == "walk":
-                                typewriter("You walk home before stopping at a go-kart rent place. You rent one and get on your way to your home.")
+                                typewriter("You start to walk home but stop at a local go-kart rent place. You figure it will be faster to rent a go-kart to drive home. You rent one and get on your way to your home.")
                                 answer = get_answer("You get stopped by the FBI on the way there and threaten to kill you. You can now either make a RUN for it, or try to TALK with them.")
                                 
                                 if answer == "run":
@@ -102,7 +102,7 @@ while (cont):
                                             typewriter("You weren't fast enough, duh.")
                                     
                                     if answer == "proof":
-                                        typewriter("You manage to show them proof that the bank robber is not you mother with a picture of your mother. They agree that it was not your mother and ask you if you would like to join their investigation.")
+                                        typewriter("You manage to show them proof that the bank robber is not your mother with a picture of your mother. They agree that it was not your mother and ask you if you would like to join their investigation.")
                                         answer = get_answer("Now your decision: if you want to JOIN their investigation or just go HOME after this long day being hunted by the FBI.")
                                         if answer == "home":
                                             typewriter("It looks like this crazy adventure is coming to an end. It is now evening at your house and you look out the window, stare into space, and pass out before your head hits the pillow.")
