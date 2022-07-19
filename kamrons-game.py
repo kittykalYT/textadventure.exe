@@ -12,24 +12,26 @@ MICRODELAY = 2
 
 
 
-def typewriter(str):
+def typewriter(str, delay):
+    """
+    Output the given string. Slowly.
+    :param str: The string to output. Slowly.
+    :param delay: The time in between each letter printed in seconds.
+    """
     for letter in str:
         sys.stdout.write(letter)
         sys.stdout.flush()
-        sleep(0.07)
+        sleep(delay)
     print("")
 
-
-def typewriter2(str):
-    for letter in str:
-        sys.stdout.write(letter)
-        sys.stdout.flush()
-        sleep(0.9)
-    print("")
 
 def get_answer(str):
-    
-    typewriter(str)
+    """
+    Prompts the user for an answer using a typewriter, and returns that answer.
+    :param str: The string to prompt the user
+    :return: The answer the user input in all lowercase
+    """
+    typewriter(str, 0.7)
     return input(">").strip().lower()
 
 cont = 1
@@ -265,7 +267,7 @@ while (cont):
                 sleep(MICRODELAY)
                 typewriter("That was nice, right? What a great ending. Plot twist. Easter egg. Whatever you want to call it. But that wasnt it for a secret cheat code, greedy player. no, not at all. This is much more than a game. But I am just here to say...")
                 sleep (MICRODELAY)
-                typewriter2("There will be a second game.")
+                typewriter("There will be a second game.", 0.9)
                 break
 
 
