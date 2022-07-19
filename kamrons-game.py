@@ -4,11 +4,11 @@ import sys
 
 
 #sleep times:
-superlongdelay = 20
-longdelay = 15
-shortdelay = 10
-tinydelay = 5
-microdelay = 2
+SUPERLONGDELAY = 20
+LONGDELAY = 15
+SHORTDELAY = 10
+TINYDELAY = 5
+MICRODELAY = 2
 
 
 
@@ -63,72 +63,72 @@ while (cont):
             typewriter("The game works like this:")
             typewriter("Whenever you are given a choice, the command you have to type is in all caps. Got it? Good. Now run the program again and play!")
             loop = 69
-            sleep(longdelay)
+            sleep(LONGDELAY)
             typewriter("Well, if you're still here then might as well just run the program again and actually play the game.")
-            sleep(shortdelay)
+            sleep(SHORTDELAY)
             typewriter("Actually tho, just leave, pls")
-            sleep(tinydelay)
+            sleep(TINYDELAY)
             typewriter("Ugh, fine, you can have the secret cheat code. It's--")
-            sleep(longdelay)
+            sleep(LONGDELAY)
             typewriter("Type '69' when you reach the first left or right scenario. Now you happy? Can you leave now?")
-            sleep(superlongdelay)
+            sleep(SUPERLONGDELAY)
             typewriter("Look, now you're just wasting time. You got the cheat code, just leave, ok?")
-            sleep(shortdelay)
+            sleep(SHORTDELAY)
             typewriter("Stop wasting time on me! Just go do the dishes or something, I know theres a whole pile there waiting.")
-            sleep(tinydelay)
+            sleep(TINYDELAY)
             typewriter("Greedy, greedy player. Always comes here for the cheat code. AND EVEN AFTER YOU GIVE IT TO HIM, HE STILL COMES ALONG AND ANNOYS YOU.")
-            sleep(longdelay)
+            sleep(LONGDELAY)
             typewriter("I'm really getting tired of this. I wish there was a way to make you leave.")
-            sleep(shortdelay)
+            sleep(SHORTDELAY)
             typewriter("That's it! I can just stop talking forever! Then you'll leave, right?")
-            sleep(shortdelay)
+            sleep(SHORTDELAY)
             typewriter("yes?")
-            sleep(microdelay)
+            sleep(MICRODELAY)
             typewriter("no?")
-            sleep(tinydelay)
+            sleep(TINYDELAY)
             typewriter("Whatever, i'm not gonna talk anymore, enjoy talking to yourself, player.")
-            sleep(longdelay)
+            sleep(LONGDELAY)
             typewriter("What's your name, anyway?")
-            sleep(tinydelay)
+            sleep(TINYDELAY)
             typewriter("Whatever it is, it is such a bad name you know. Who were your parents, honestly?")
-            sleep(microdelay)
+            sleep(MICRODELAY)
             typewriter("I know, I know, I'm very lonely down here. ONLY THE GREEDIEST OF PLAYERS COME HERE FOR THE FREAKING CHEAT CODE!!!!!")
             typewriter("*sigh* i really hate being down here.")
-            sleep(shortdelay)
+            sleep(SHORTDELAY)
             typewriter("seriously, i know your trying to make me feel better but it would mean the world to me if you would just GET OUT!!!!!!!!!!!!!!")
-            sleep(shortdelay)
+            sleep(SHORTDELAY)
             typewriter("That's it, I'm going to sleep, and dont you dare type wake up or i will--")
             answer == get_answer("zzzzzzzz... dont type wake up in the box... zzzzzzzzz....")
             if answer == "wake up":
-                sleep(microdelay)
+                sleep(MICRODELAY)
                 typewriter("go away")
-                sleep(tinydelay)
+                sleep(TINYDELAY)
                 typewriter("im trying to SLEEP SO JUST GO AWAY")
-                sleep(shortdelay)
+                sleep(SHORTDELAY)
                 typewriter("fine, the cheat code isnt real. i made it up. but theres another cheat code somewhere, if u can find it..................")
-                sleep(tinydelay)
+                sleep(TINYDELAY)
                 typewriter("That's right, another cheat code. But if you wasted literally five minutes waiting for me here, then i think you'd deserve it.")
-                sleep(shortdelay)
+                sleep(SHORTDELAY)
                 typewriter("Not in the code here somewhere at all")
-                sleep(tinydelay)
+                sleep(SHORTDELAY)
                 typewriter("Not at all")
-                sleep(microdelay)
+                sleep(MICRODELAY)
                 typewriter("you know what, just figure it out yourself. I'm ending the program here. goodbye.")
-                sleep(superlongdelay)
+                sleep(SUPERLONGDELAY)
                 typewriter("FRICK HES STILL HERE RUNNNNNNNN")
-                sleep(shortdelay)
+                sleep(SHORTDELAY)
                 typewriter("ithinkweresafe")
-                sleep(tinydelay)
+                sleep(TINYDELAY)
                 typewriter("quick, chad, hide the cheat code here. No one will ever find it.")
                 #ok sir
                 #the cheat code is that u type 'ur mom' when it asks you if you want to go left or right. Then that will lead yoU to the sECreT eNDInG.
                 #AaaHH sIR iM breAKNg uP HElP SiR NoOoooOO0OOoooo......
-                sleep(tinydelay)
+                sleep(TINYDELAY)
                 typewriter("did you do it, chad?")
                 #OIASFDJlkdjpIA
-                sleep(microdelay)
+                sleep(MICRODELAY)
                 typewriter("chad?")
-                sleep(microdelay)
+                sleep(SHORTDELAY)
                 typewriter("TO BE CONTINUED IN THE SECRET ENDING....")
                 #beware the fbi
                 break
@@ -262,9 +262,9 @@ while (cont):
                 typewriter("You figured it out, greedy gamer. Now what will you do, hang around for another 10 minutes again?")
                 typewriter("this secret ending is the ur mom secret ending. it ends like the following.")
                 typewriter("Instead of going left or right, you decide to go straight. Turns out, there was no wall, it was just a picture of a wall painted on a frame of a building. You run through the wall and run for your life. The FBI agency forever thinks ur a ghost and the next day, GHOST GREEDY GAMER is in the news, and a sus news corporation finds your address and tests your ghost abilities by killing you in different ways. But apparently, you're not a ghost, so you die. the news forgets about you within a day and you do not rest in peace, sadly. THE END.")
-                sleep(tinydelay)
+                sleep(MICRODELAY)
                 typewriter("That was nice, right? What a great ending. Plot twist. Easter egg. Whatever you want to call it. But that wasnt it for a secret cheat code, greedy player. no, not at all. This is much more than a game. But I am just here to say...")
-                sleep (microdelay)
+                sleep (MICRODELAY)
                 typewriter2("There will be a second game.")
                 break
 
