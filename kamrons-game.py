@@ -62,6 +62,12 @@ while (cont):
         answer = get_answer("Do you want to get right into the game, or play a short tutorial first? (Type 'game' if you want to play the game, and type 'tutorial' if you want to play a tutorial.)")
         
         if answer == "tutorial":
+            import time
+            for x in range (0,5):  
+                b = "Loading" + "." * x
+                print (b, end="\r")
+                time.sleep(1)
+                
             typewriter("The game works like this:", 0.07)
             typewriter("Whenever you are given a choice, the command you have to type is in all caps. Got it? Good. Now run the program again and play!", 0.07)
             loop = 69
